@@ -5,11 +5,9 @@ import Home from "./components/Home";
 import Dashboard from "./components/Dashboard";
 import About from "./components/About";
 import Analytics from "./components/Analytics";
-import Reports from "./components/Reports.jsx"; // Import the Reports component
+import Reports from "./components/Reports.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Feedback from "./components/Feedback.jsx";
-
-
 
 const App = () => {
   return (
@@ -26,7 +24,8 @@ const App = () => {
           {/* About route */}
           <Route path="about" element={<About />} />
           <Route path="feedback" element={<Feedback />} />
-          <Route path="reports" element={<Reports />} /> {/* Add the Reports route */}
+          <Route path="reports" element={<Reports />} />{" "}
+          {/* Add the Reports route */}
         </Route>
       </Routes>
     </Router>
