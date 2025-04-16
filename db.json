@@ -1,0 +1,252 @@
+{
+    "ImportanceOfQualityEducation": [
+        {
+            "Country": "USA",
+            "GlobalGoalsAchieved": 80,
+            "PersonalDevelopmentRate": 90,
+            "SocietalImpactScore": 85,
+            "EconomicGrowthRate": 4.8,
+            "EqualityIndex": 78
+        },
+        {
+            "Country": "India",
+            "GlobalGoalsAchieved": 65,
+            "PersonalDevelopmentRate": 75,
+            "SocietalImpactScore": 80,
+            "EconomicGrowthRate": 6.5,
+            "EqualityIndex": 70
+        },
+        {
+            "Country": "Germany",
+            "GlobalGoalsAchieved": 90,
+            "PersonalDevelopmentRate": 95,
+            "SocietalImpactScore": 88,
+            "EconomicGrowthRate": 3.5,
+            "EqualityIndex": 85
+        },
+        {
+            "Country": "Nigeria",
+            "GlobalGoalsAchieved": 55,
+            "PersonalDevelopmentRate": 65,
+            "SocietalImpactScore": 70,
+            "EconomicGrowthRate": 2.0,
+            "EqualityIndex": 60
+        },
+        {
+            "Country": "Brazil",
+            "GlobalGoalsAchieved": 75,
+            "PersonalDevelopmentRate": 80,
+            "SocietalImpactScore": 82,
+            "EconomicGrowthRate": 4.2,
+            "EqualityIndex": 72
+        },
+        {
+            "Country": "Canada",
+            "GlobalGoalsAchieved": 85,
+            "PersonalDevelopmentRate": 92,
+            "SocietalImpactScore": 87,
+            "EconomicGrowthRate": 3.8,
+            "EqualityIndex": 88
+        }
+    ],
+    "ChallengesInAchievingQualityEducation": [
+        {
+            "Country": "Nigeria",
+            "PovertyRateImpact": 45,
+            "InfrastructureGaps": 60,
+            "TeacherShortages": 30,
+            "DigitalDividePercentage": 50,
+            "DropoutRate": 25
+        },
+        {
+            "Country": "India",
+            "PovertyRateImpact": 40,
+            "InfrastructureGaps": 55,
+            "TeacherShortages": 35,
+            "DigitalDividePercentage": 48,
+            "DropoutRate": 22
+        },
+        {
+            "Country": "South Africa",
+            "PovertyRateImpact": 35,
+            "InfrastructureGaps": 50,
+            "TeacherShortages": 28,
+            "DigitalDividePercentage": 45,
+            "DropoutRate": 20
+        },
+        {
+            "Country": "Brazil",
+            "PovertyRateImpact": 30,
+            "InfrastructureGaps": 40,
+            "TeacherShortages": 20,
+            "DigitalDividePercentage": 38,
+            "DropoutRate": 18
+        },
+        {
+            "Country": "Pakistan",
+            "PovertyRateImpact": 50,
+            "InfrastructureGaps": 65,
+            "TeacherShortages": 40,
+            "DigitalDividePercentage": 60,
+            "DropoutRate": 30
+        },
+        {
+            "Country": "USA",
+            "PovertyRateImpact": 15,
+            "InfrastructureGaps": 20,
+            "TeacherShortages": 10,
+            "DigitalDividePercentage": 15,
+            "DropoutRate": 8
+        }
+    ],
+    "PillarsOfQualityEducation": [
+        {
+            "Country": "Germany",
+            "SkilledTeachersAvailable": 95,
+            "ResourceAvailability": 92,
+            "InclusivityScore": 85,
+            "StudentEngagementLevel": 90,
+            "SafeLearningEnvironmentRate": 88
+        },
+        {
+            "Country": "Canada",
+            "SkilledTeachersAvailable": 90,
+            "ResourceAvailability": 88,
+            "InclusivityScore": 82,
+            "StudentEngagementLevel": 85,
+            "SafeLearningEnvironmentRate": 80
+        },
+        {
+            "Country": "Japan",
+            "SkilledTeachersAvailable": 92,
+            "ResourceAvailability": 89,
+            "InclusivityScore": 84,
+            "StudentEngagementLevel": 87,
+            "SafeLearningEnvironmentRate": 85
+        },
+        {
+            "Country": "India",
+            "SkilledTeachersAvailable": 70,
+            "ResourceAvailability": 75,
+            "InclusivityScore": 65,
+            "StudentEngagementLevel": 68,
+            "SafeLearningEnvironmentRate": 60
+        },
+        {
+            "Country": "Nigeria",
+            "SkilledTeachersAvailable": 60,
+            "ResourceAvailability": 50,
+            "InclusivityScore": 55,
+            "StudentEngagementLevel": 58,
+            "SafeLearningEnvironmentRate": 50
+        },
+        {
+            "Country": "Brazil",
+            "SkilledTeachersAvailable": 85,
+            "ResourceAvailability": 80,
+            "InclusivityScore": 75,
+            "StudentEngagementLevel": 78,
+            "SafeLearningEnvironmentRate": 72
+        }
+    ],
+    "StrategiesAndInnovationsToImproveQualityEducation": [
+        {
+            "Country": "Japan",
+            "TechnologyIntegrationRate": 85,
+            "PolicyInitiativesImplemented": 78,
+            "PublicPrivatePartnerships": 65,
+            "TeacherTrainingPrograms": 90,
+            "ModernCurriculumAdoption": 88
+        },
+        {
+            "Country": "USA",
+            "TechnologyIntegrationRate": 80,
+            "PolicyInitiativesImplemented": 85,
+            "PublicPrivatePartnerships": 70,
+            "TeacherTrainingPrograms": 92,
+            "ModernCurriculumAdoption": 85
+        },
+        {
+            "Country": "India",
+            "TechnologyIntegrationRate": 65,
+            "PolicyInitiativesImplemented": 70,
+            "PublicPrivatePartnerships": 50,
+            "TeacherTrainingPrograms": 75,
+            "ModernCurriculumAdoption": 68
+        },
+        {
+            "Country": "Canada",
+            "TechnologyIntegrationRate": 88,
+            "PolicyInitiativesImplemented": 80,
+            "PublicPrivatePartnerships": 72,
+            "TeacherTrainingPrograms": 85,
+            "ModernCurriculumAdoption": 90
+        },
+        {
+            "Country": "Germany",
+            "TechnologyIntegrationRate": 90,
+            "PolicyInitiativesImplemented": 88,
+            "PublicPrivatePartnerships": 80,
+            "TeacherTrainingPrograms": 92,
+            "ModernCurriculumAdoption": 95
+        },
+        {
+            "Country": "Brazil",
+            "TechnologyIntegrationRate": 75,
+            "PolicyInitiativesImplemented": 70,
+            "PublicPrivatePartnerships": 65,
+            "TeacherTrainingPrograms": 78,
+            "ModernCurriculumAdoption": 72
+        }
+    ],
+    "MeasuringAndMonitoringQualityEducation": [
+        {
+            "Country": "Australia",
+            "KeyPerformanceIndicatorsUsed": 8,
+            "StudentAssessmentRate": 90,
+            "GlobalStandardsAdoptionRate": 80,
+            "DataAnalyticsUtilization": 88,
+            "ImprovementRateYearly": 12
+        },
+        {
+            "Country": "USA",
+            "KeyPerformanceIndicatorsUsed": 9,
+            "StudentAssessmentRate": 92,
+            "GlobalStandardsAdoptionRate": 85,
+            "DataAnalyticsUtilization": 90,
+            "ImprovementRateYearly": 15
+        },
+        {
+            "Country": "India",
+            "KeyPerformanceIndicatorsUsed": 5,
+            "StudentAssessmentRate": 75,
+            "GlobalStandardsAdoptionRate": 60,
+            "DataAnalyticsUtilization": 65,
+            "ImprovementRateYearly": 8
+        },
+        {
+            "Country": "Canada",
+            "KeyPerformanceIndicatorsUsed": 7,
+            "StudentAssessmentRate": 88,
+            "GlobalStandardsAdoptionRate": 82,
+            "DataAnalyticsUtilization": 85,
+            "ImprovementRateYearly": 10
+        },
+        {
+            "Country": "Brazil",
+            "KeyPerformanceIndicatorsUsed": 6,
+            "StudentAssessmentRate": 80,
+            "GlobalStandardsAdoptionRate": 70,
+            "DataAnalyticsUtilization": 78,
+            "ImprovementRateYearly": 9
+        },
+        {
+            "Country": "Nigeria",
+            "KeyPerformanceIndicatorsUsed": 4,
+            "StudentAssessmentRate": 60,
+            "GlobalStandardsAdoptionRate": 50,
+            "DataAnalyticsUtilization": 55,
+            "ImprovementRateYearly": 5
+        }
+    ]
+}

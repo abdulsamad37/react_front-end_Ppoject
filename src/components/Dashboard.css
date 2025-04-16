@@ -1,0 +1,161 @@
+/* Dashboard.css */
+body {
+    background-color: #f4f7fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #2d3436;
+    
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-body {
+    padding: 20px;
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card-body h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-body p {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .card-body .icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover .card-body .icon {
+    transform: translateY(-10px);
+  }
+  
+  .card:hover .card-body h4,
+  .card:hover .card-body p {
+    transform: translateY(-10px);
+  }
+  
+  /* Hover effects with keyframes */
+  @keyframes gradient {
+    0% {
+      background: linear-gradient(to right, #fceabb, #f8b500);
+    }
+    50% {
+      background: linear-gradient(to right, #f8b500, #fceabb);
+    }
+    100% {
+      background: linear-gradient(to right, #fceabb, #f8b500);
+    }
+  }
+  
+  .card {
+    animation: gradient 5s ease infinite;
+  }
+  
+  .card-body h4,
+  .card-body p {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card-body h4 {
+    font-size: 1.4rem;
+    color: #ffffff;
+  }
+  
+  .card-body p {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+  
+  /* Data Table Animations */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  table thead {
+    background-color: #0072ff;
+    color: white;
+  }
+  
+  th,
+  td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    font-size: 1.1rem;
+  }
+  
+  td {
+    font-size: 1rem;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Fade in animation for table */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .overflow-x-auto {
+    margin-top: 20px;
+  }
+  
+  .mt-4 {
+    margin-top: 2rem;
+  }
+  
+  .mt-6 {
+    margin-top: 3rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  p {
+    color: #616161;
+  }
+  
+  /* Custom Loading Spinner */
+  .text-center.loading {
+    font-size: 1.5rem;
+    color: #0072ff;
+  }
+  

@@ -1,0 +1,50 @@
+.feedback-cards .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-cards .card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback-cards .card-body p {
+  flex: 1;
+  margin: 0;
+}
+
+.feedback-cards .btn {
+  display: inline-flex; /* Make sure the icon and button content are aligned */
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px; /* Adjust padding to fit the icon */
+  border-radius: 50%; /* Round button corners for better icon fit */
+  font-size: 16px; /* Ensure the icon is big enough but not too large */
+  line-height: 1; /* Keep the icon centered */
+  width: 36px; /* Fix the button width */
+  height: 36px; /* Fix the button height */
+  text-align: center;
+}
+
+.feedback-cards .btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #fff;
+}
+
+.feedback-cards .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+}
+
+.feedback-cards .btn:hover {
+  opacity: 0.8; /* Slight hover effect */
+}
+
+.feedback-cards .btn:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.5); /* Optional focus effect */
+}

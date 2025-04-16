@@ -1,0 +1,54 @@
+/* Subject Stats Page Styles */
+.subject-stats-container {
+    padding: 30px;
+    background-color: #f0f9ff; /* Light sky blue */
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-top: 20px;
+  }
+  
+  .subject-stats-container h2 {
+    color: #3c91e6; /* Bright blue color for the header */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .subject-statistics {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .subject-statistics h4 {
+    font-size: 1.5rem;
+    color: #3c91e6;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .subject-statistics p {
+    font-size: 1.1rem;
+    color: #555; /* Light gray for text */
+    margin-bottom: 10px;
+  }
+  
+  .subject-statistics .high-performance {
+    background-color: #b9e5b4; /* Light green for high performance */
+    padding: 10px;
+    border-radius: 8px;
+    color: #387b35; /* Dark green text */
+  }
+  
+  .subject-statistics .improvement {
+    background-color: #f8d7da; /* Light red for subjects needing improvement */
+    padding: 10px;
+    border-radius: 8px;
+    color: #721c24; /* Dark red text */
+  }
+  
+  .subject-statistics p strong {
+    color: #387b35; /* Highlighted text in green for positive aspects */
+  }
+  
